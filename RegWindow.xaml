@@ -1,0 +1,22 @@
+﻿<Window x:Class="KeyboardWriting.RegWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KeyboardWriting"
+        mc:Ignorable="d"
+        Title="Registration" Height="450" Width="800">
+    <Grid>
+        <Label Content="DO6HPO IIO#AJIOBATb B MOU IIPOrPAMMHbIU JIOXOTPOH!!!" Margin="32,10,32,0" VerticalAlignment="Top" FontFamily="Rockwell Extra Bold" FontSize="20"/>
+        <Label Content="Юзернейм" HorizontalAlignment="Left" Margin="20,83,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbUsername" HorizontalAlignment="Left" Height="23" Margin="106,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" FontFamily="Showcard Gothic"/>
+        <Label Content="Пали текст здесь ->" HorizontalAlignment="Left" Margin="20,137,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbSamplePhrase" HorizontalAlignment="Left" Height="23" Margin="143,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="576" IsEnabled="False"/>
+        <Label Content="Пиши сюда ->" HorizontalAlignment="Left" Margin="32,218,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbWrittenPhrase" HorizontalAlignment="Left" Height="23" Margin="127,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="592" KeyDown="TbWrittenPhrase_KeyDown"/>
+        <Button x:Name="btnReadme" Content="Ридми" HorizontalAlignment="Left" Margin="47,359,0,0" VerticalAlignment="Top" Width="75" Click="BtnReadme_Click"/>
+        <Label x:Name="label1" Content="ОСТАЛОСЬ ВВЕСТИ (РАЗ):" HorizontalAlignment="Left" Margin="344,73,0,0" VerticalAlignment="Top" Width="344" FontFamily="Impact" FontSize="30" Foreground="Lime" BorderBrush="#FFCD0000" Background="White" FontStyle="Italic" FontStretch="Expanded" FontWeight="Bold"/>
+        <Label x:Name="label2" Content="3" HorizontalAlignment="Left" Margin="688,73,0,0" VerticalAlignment="Top" Width="72" FontFamily="Impact" FontSize="30" Foreground="Lime" BorderBrush="#FFCD0000" Background="Transparent" FontStyle="Italic" FontStretch="Expanded" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
